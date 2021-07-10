@@ -1,0 +1,63 @@
+# idlist=[]
+# namelist=[]
+# courselist=[]
+# moblist=[]
+# def addStudent(name,id,course,mob):
+#     namelist.append(name)
+#     idlist.append(id)
+#     courselist.append(course)
+#     moblist.append(mob)
+#     # print(namelist,idlist)
+# def seachStudent(id):
+#     for std in range(len(idlist)):
+#         print('kfdgj')
+#         if id==idlist[std]:
+#             print('student Name=',namelist[std],'stident id =',idlist[std],
+#                   'Course=',courselist[std],'Mobile=',moblist[std])
+# def deleteStudent(id):
+#     # for i in range(len(idlist)):
+#     for i i n idlist:
+#         if id==i:
+#             a=idlist[i]
+#             index=idlist.index(a)
+#             idlist.pop(index)
+#             namelist.pop(index)
+#             courselist.pop(index)
+#             moblist.pop(index)
+# def showallinfo():
+#     for i in range(len(idlist)):
+#         print('student Name=', namelist[i], 'stident id =', idlist[i],
+#               'Course=', courselist[i], 'Mobile=', moblist[i])
+# # Presentation layer
+#
+# while True:
+#     print('1 for add\n2 for search\n3 for delete\n4 for show all')
+#     ch=input('enter your choice:-')
+#     if ch=='1':
+#         name=input('enter student name=')
+#         id=int(input('enter student id='))
+#         course=input('enter course name=')
+#         mobile=input('enter Contact no ')
+#         addStudent(name,id,course,mobile)
+#     elif ch=='2':
+#         id=int(input('enter student id for seach info='))
+#         seachStudent(id)
+#     elif ch=='3':
+#         id=int(input('enter student id for delete info='))
+#         deleteStudent(id)
+#         print('info deleted successfully')
+#     elif ch=='4':
+#         showallinfo()
+#
+#     else:
+#         print('invalid choice plese run again')
+#         exit()
+#
+#
+x='hello python '
+# for i in x:
+#     print(i,end='')
+#     print('jkdf')
+#
+for i in range(len(x)):
+    print(x[i],end='')

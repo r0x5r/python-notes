@@ -1,0 +1,582 @@
+# # # # BLLL
+# # #
+# # # class customer:
+# # #     cuslist=[]
+# # #     def __init__(self):
+# # #         self.id=0
+# # #         self.name=""
+# # #         self.age=0
+# # #         self.address=""
+# # #         self.mob=0
+# # #
+# # #     def addcustomer(self):
+# # #         customer.cuslist.append(self)
+# # # #PL
+# # #     def serchcustomer(self,id):
+# # #         for cus in customer.cuslist:
+# # #             if id==cus.id:
+# # #                 self.id=cus.id
+# # #                 self.name=cus.name
+# # #                 self.age=cus.age
+# # #                 self.address=cus.address
+# # #                 self.mob=cus.mob
+# # #                 return
+# # # while(True):
+# # #     print("1 for add customer")
+# # #     print("2 for search customer")
+# # #     print("3 for  delete customer")
+# # #     print("4 for modify customer")
+# # #     print("5 for showall customer")
+# # #     choice=int(input("enter your choice"))
+# # #     if choice==1:
+# # #         cus=customer()
+# # #         cus.id=int(input("enter customer id"))
+# # #         cus.name=input("enter customer name")
+# # #         cus.age=int(input("enter customer age"))
+# # #         cus.address=input("enter customer address")
+# # #         cus.mob=int(input("enter customer mobile no"))
+# # #         cus.addcustomer()
+# # #         print("customer addedd successfully")
+# # #
+# # #     elif choice==2:
+# # #         id=int(input("enter customer id for search="))
+# # #         cus=customer()
+# # #         cus.serchcustomer(id)
+# # #         print("id=",cus.id,"name=",cus.name,"age=",cus.age,"address=",cus.address,"mob=",cus.mob)
+# #
+# #
+# #
+# # class laptop:
+# #     mylist=[]
+# #     def __init__(self,n,r,m):
+# #         self.name=n
+# #         self.ram=r
+# #         self.model=m
+# #
+# #     def laptopinfo(self):
+# #         print('name=',self.name,'ram=',self.ram,'model=',self.model)
+# #
+# # hp=laptop('hp',12,785021)
+# # d=laptop('dell',16,78.2165)
+# # d1=laptop('dell',8,78.2165)
+# # hp.laptopinfo()
+# # d.laptopinfo()
+# # d1.laptopinfo()
+# #
+# # # BLLL
+# #
+# # class customer:
+# #     cuslist=[]
+# #     def __init__(self):
+# #         self.id=0
+# #         self.name=""
+# #         self.age=0
+# #         self.address=""
+# #         self.mob=0
+# #
+# #     def addcustomer(self):
+# #         customer.cuslist.append(self)
+# # #PL
+# #     def serchcustomer(self,id):
+# #         for cus in customer.cuslist:
+# #             if id==cus.id:
+# #                 self.id=cus.id
+# #                 self.name=cus.name
+# #                 self.age=cus.age
+# #                 self.address=cus.address
+# #                 self.mob=cus.mob
+# #                 return
+# # while(True):
+# #     print("1 for add customer")
+# #     print("2 for search customer")
+# #     print("3 for  delete customer")
+# #     print("4 for modify customer")
+# #     print("5 for showall customer")
+# #     choice=int(input("enter your choice"))
+# #     if choice==1:
+# #         cus=customer()
+# #         cus.id=int(input("enter customer id"))
+# #         cus.name=input("enter customer name")
+# #         cus.age=int(input("enter customer age"))
+# #         cus.address=input("enter customer address")
+# #         cus.mob=int(input("enter customer mobile no"))
+# #         cus.addcustomer()
+# #         print("customer addedd successfully")
+# #
+# #     elif choice==2:
+# #         id=int(input("enter customer id for search="))
+# #         cus=customer()
+# #         cus.serchcustomer(id)
+# #         print("id=",cus.id,"name=",cus.name,"age=",cus.age,"address=",cus.address,"mob=",cus.mob)
+#
+#
+#
+# # class laptop:
+# #     mylist=[]
+# #     def __init__(self,n,r,m):
+# #         self.name=n
+# #         self.ram=r
+# #         self.model=m
+# #
+# #     def laptopinfo(self):
+# #         print('name=',self.name,'ram=',self.ram,'model=',self.model)
+# #
+# # hp=laptop('hp',12,785021)
+# # d=laptop('dell',16,78.2165)
+# # d1=laptop('dell',8,78.2165)
+# # hp.laptopinfo()
+# # d.laptopinfo()
+# # d1.laptopinfo()
+# #
+# #
+# #
+# #
+# #
+#
+#
+#
+# # # BLLL
+# #
+# # class customer:
+# #     cuslist=[]
+# #     def __init__(self):
+# #         self.id=0
+# #         self.name=""
+# #         self.age=0
+# #         self.address=""
+# #         self.mob=0
+# #
+# #     def addcustomer(self):
+# #         customer.cuslist.append(self)
+# # #PL
+# #     def serchcustomer(self,id):
+# #         for cus in customer.cuslist:
+# #             if id==cus.id:
+# #                 self.id=cus.id
+# #                 self.name=cus.name
+# #                 self.age=cus.age
+# #                 self.address=cus.address
+# #                 self.mob=cus.mob
+# #                 return
+# # while(True):
+# #     print("1 for add customer")
+# #     print("2 for search customer")
+# #     print("3 for  delete customer")
+# #     print("4 for modify customer")
+# #     print("5 for showall customer")
+# #     choice=int(input("enter your choice"))
+# #     if choice==1:
+# #         cus=customer()
+# #         cus.id=int(input("enter customer id"))
+# #         cus.name=input("enter customer name")
+# #         cus.age=int(input("enter customer age"))
+# #         cus.address=input("enter customer address")
+# #         cus.mob=int(input("enter customer mobile no"))
+# #         cus.addcustomer()
+# #         print("customer addedd successfully")
+# #
+# #     elif choice==2:
+# #         id=int(input("enter customer id for search="))
+# #         cus=customer()
+# #         cus.serchcustomer(id)
+# #         print("id=",cus.id,"name=",cus.name,"age=",cus.age,"address=",cus.address,"mob=",cus.mob)
+#
+#
+#
+# class laptop:
+#     mylist=[]
+#     def __init__(self):
+#         self.name=''
+#         self.ram=''
+#         self.model=None
+#
+#     def laptopinfo(self):
+#         print('name=',self.name,'ram=',self.ram,'model=',self.model)
+#
+# # hp=laptop('hp',12,785021)
+# # d=laptop('dell',16,78.2165)
+# # d1=laptop('dell',8,78.2165)
+# # hp.laptopinfo()
+# # d.laptopinfo()
+# # d1.
+# while 1:
+#   rohit=input('do u want to continue or not')
+#   if rohit=='yes':
+#     hp=laptop()
+#     hp.name=input('enter laptop name=')
+#     hp.ram=input('enter ran info')
+#     hp.model=input('enter the model no')
+#     hp.laptopinfo()
+#   else:
+#       exit()
+#
+#
+# class teacher:
+#     department='CS'
+#     def show(self):
+#         print('hello teacher')
+# class student (teacher):
+#     course='MCA'
+# ob=student()
+# d=ob.department='EC'
+# print(d)
+# class teacher:
+#     mylist=[]
+#     def __init__(self):
+#         self.name='raj'
+#         self.id=10
+#         self.salary=1202132
+#         # print('hello teacher i am constrator')
+#     def show(self):
+#         print('name=',self.name,'id=',self.id,end=' ')
+# class student (teacher):
+#     def __init__(self):
+#         self.course='WEB PT'
+#         self.fees=12032
+#         # print('hello i am student class constrator')
+#         super(student, self).__init__()
+#     def showinfo(self):
+#         super(student, self).show()
+#         print('Course=',self.course,'fees=',self.fees)
+#
+#
+#
+# ob=student()
+# ob.showinfo()
+# print(student.mro())
+
+
+
+
+class A:
+    def __init__(self):
+        self.name1='A'
+
+    def show1(self):
+        print(self.name1)
+
+
+class B (A):
+    def __init__(self):
+        self.name2 = 'B'
+        super().__init__()
+    def show2(self):
+        print(self.name2)
+        super().show1()
+
+
+class C (B):
+    def __init__(self):
+        self.name3 = 'C'
+        super().__init__()
+
+    def show3(self):
+        print(self.name3)
+        super().show2()
+
+
+class D(C):
+    def __init__(self):
+        self.name = 'D'
+        super().__init__()
+
+    def show(self):
+        print(self.name)
+        super().show3()
+
+ob=D()
+ob.show()
+print(C.mro())
+
+
+# # # # BLLL
+# # #
+# # # class customer:
+# # #     cuslist=[]
+# # #     def __init__(self):
+# # #         self.id=0
+# # #         self.name=""
+# # #         self.age=0
+# # #         self.address=""
+# # #         self.mob=0
+# # #
+# # #     def addcustomer(self):
+# # #         customer.cuslist.append(self)
+# # # #PL
+# # #     def serchcustomer(self,id):
+# # #         for cus in customer.cuslist:
+# # #             if id==cus.id:
+# # #                 self.id=cus.id
+# # #                 self.name=cus.name
+# # #                 self.age=cus.age
+# # #                 self.address=cus.address
+# # #                 self.mob=cus.mob
+# # #                 return
+# # # while(True):
+# # #     print("1 for add customer")
+# # #     print("2 for search customer")
+# # #     print("3 for  delete customer")
+# # #     print("4 for modify customer")
+# # #     print("5 for showall customer")
+# # #     choice=int(input("enter your choice"))
+# # #     if choice==1:
+# # #         cus=customer()
+# # #         cus.id=int(input("enter customer id"))
+# # #         cus.name=input("enter customer name")
+# # #         cus.age=int(input("enter customer age"))
+# # #         cus.address=input("enter customer address")
+# # #         cus.mob=int(input("enter customer mobile no"))
+# # #         cus.addcustomer()
+# # #         print("customer addedd successfully")
+# # #
+# # #     elif choice==2:
+# # #         id=int(input("enter customer id for search="))
+# # #         cus=customer()
+# # #         cus.serchcustomer(id)
+# # #         print("id=",cus.id,"name=",cus.name,"age=",cus.age,"address=",cus.address,"mob=",cus.mob)
+# #
+# #
+# #
+# # class laptop:
+# #     mylist=[]
+# #     def __init__(self,n,r,m):
+# #         self.name=n
+# #         self.ram=r
+# #         self.model=m
+# #
+# #     def laptopinfo(self):
+# #         print('name=',self.name,'ram=',self.ram,'model=',self.model)
+# #
+# # hp=laptop('hp',12,785021)
+# # d=laptop('dell',16,78.2165)
+# # d1=laptop('dell',8,78.2165)
+# # hp.laptopinfo()
+# # d.laptopinfo()
+# # d1.laptopinfo()
+# #
+# # # BLLL
+# #
+# # class customer:
+# #     cuslist=[]
+# #     def __init__(self):
+# #         self.id=0
+# #         self.name=""
+# #         self.age=0
+# #         self.address=""
+# #         self.mob=0
+# #
+# #     def addcustomer(self):
+# #         customer.cuslist.append(self)
+# # #PL
+# #     def serchcustomer(self,id):
+# #         for cus in customer.cuslist:
+# #             if id==cus.id:
+# #                 self.id=cus.id
+# #                 self.name=cus.name
+# #                 self.age=cus.age
+# #                 self.address=cus.address
+# #                 self.mob=cus.mob
+# #                 return
+# # while(True):
+# #     print("1 for add customer")
+# #     print("2 for search customer")
+# #     print("3 for  delete customer")
+# #     print("4 for modify customer")
+# #     print("5 for showall customer")
+# #     choice=int(input("enter your choice"))
+# #     if choice==1:
+# #         cus=customer()
+# #         cus.id=int(input("enter customer id"))
+# #         cus.name=input("enter customer name")
+# #         cus.age=int(input("enter customer age"))
+# #         cus.address=input("enter customer address")
+# #         cus.mob=int(input("enter customer mobile no"))
+# #         cus.addcustomer()
+# #         print("customer addedd successfully")
+# #
+# #     elif choice==2:
+# #         id=int(input("enter customer id for search="))
+# #         cus=customer()
+# #         cus.serchcustomer(id)
+# #         print("id=",cus.id,"name=",cus.name,"age=",cus.age,"address=",cus.address,"mob=",cus.mob)
+#
+#
+#
+# # class laptop:
+# #     mylist=[]
+# #     def __init__(self,n,r,m):
+# #         self.name=n
+# #         self.ram=r
+# #         self.model=m
+# #
+# #     def laptopinfo(self):
+# #         print('name=',self.name,'ram=',self.ram,'model=',self.model)
+# #
+# # hp=laptop('hp',12,785021)
+# # d=laptop('dell',16,78.2165)
+# # d1=laptop('dell',8,78.2165)
+# # hp.laptopinfo()
+# # d.laptopinfo()
+# # d1.laptopinfo()
+# #
+# #
+# #
+# #
+# #
+#
+#
+#
+# # # BLLL
+# #
+# # class customer:
+# #     cuslist=[]
+# #     def __init__(self):
+# #         self.id=0
+# #         self.name=""
+# #         self.age=0
+# #         self.address=""
+# #         self.mob=0
+# #
+# #     def addcustomer(self):
+# #         customer.cuslist.append(self)
+# # #PL
+# #     def serchcustomer(self,id):
+# #         for cus in customer.cuslist:
+# #             if id==cus.id:
+# #                 self.id=cus.id
+# #                 self.name=cus.name
+# #                 self.age=cus.age
+# #                 self.address=cus.address
+# #                 self.mob=cus.mob
+# #                 return
+# # while(True):
+# #     print("1 for add customer")
+# #     print("2 for search customer")
+# #     print("3 for  delete customer")
+# #     print("4 for modify customer")
+# #     print("5 for showall customer")
+# #     choice=int(input("enter your choice"))
+# #     if choice==1:
+# #         cus=customer()
+# #         cus.id=int(input("enter customer id"))
+# #         cus.name=input("enter customer name")
+# #         cus.age=int(input("enter customer age"))
+# #         cus.address=input("enter customer address")
+# #         cus.mob=int(input("enter customer mobile no"))
+# #         cus.addcustomer()
+# #         print("customer addedd successfully")
+# #
+# #     elif choice==2:
+# #         id=int(input("enter customer id for search="))
+# #         cus=customer()
+# #         cus.serchcustomer(id)
+# #         print("id=",cus.id,"name=",cus.name,"age=",cus.age,"address=",cus.address,"mob=",cus.mob)
+#
+#
+#
+# class laptop:
+#     mylist=[]
+#     def __init__(self):
+#         self.name=''
+#         self.ram=''
+#         self.model=None
+#
+#     def laptopinfo(self):
+#         print('name=',self.name,'ram=',self.ram,'model=',self.model)
+#
+# # hp=laptop('hp',12,785021)
+# # d=laptop('dell',16,78.2165)
+# # d1=laptop('dell',8,78.2165)
+# # hp.laptopinfo()
+# # d.laptopinfo()
+# # d1.
+# while 1:
+#   rohit=input('do u want to continue or not')
+#   if rohit=='yes':
+#     hp=laptop()
+#     hp.name=input('enter laptop name=')
+#     hp.ram=input('enter ran info')
+#     hp.model=input('enter the model no')
+#     hp.laptopinfo()
+#   else:
+#       exit()
+#
+#
+# class teacher:
+#     department='CS'
+#     def show(self):
+#         print('hello teacher')
+# class student (teacher):
+#     course='MCA'
+# ob=student()
+# d=ob.department='EC'
+# print(d)
+# class teacher:
+#     mylist=[]
+#     def __init__(self):
+#         self.name='raj'
+#         self.id=10
+#         self.salary=1202132
+#         # print('hello teacher i am constrator')
+#     def show(self):
+#         print('name=',self.name,'id=',self.id,end=' ')
+# class student (teacher):
+#     def __init__(self):
+#         self.course='WEB PT'
+#         self.fees=12032
+#         # print('hello i am student class constrator')
+#         super(student, self).__init__()
+#     def showinfo(self):
+#         super(student, self).show()
+#         print('Course=',self.course,'fees=',self.fees)
+#
+#
+#
+# ob=student()
+# ob.showinfo()
+# print(student.mro())
+
+
+
+
+class A:
+    def __init__(self):
+        self.name1='A'
+
+    def show1(self):
+        print(self.name1)
+
+
+class B (A):
+    def __init__(self):
+        self.name2 = 'B'
+        super().__init__()
+    def show2(self):
+        print(self.name2)
+        super().show1()
+
+
+class C (B):
+    def __init__(self):
+        self.name3 = 'C'
+        super().__init__()
+
+    def show3(self):
+        print(self.name3)
+        super().show2()
+
+
+class D(C):
+    def __init__(self):
+        self.name = 'D'
+        super().__init__()
+
+    def show(self):
+        print(self.name)
+        super().show3()
+
+ob=D()
+ob.show()
+print(C.mro())
+
+

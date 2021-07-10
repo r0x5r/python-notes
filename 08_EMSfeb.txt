@@ -1,0 +1,104 @@
+class Emp:
+    listEmp=[]
+    @staticmethod
+    def getEmpById(id):
+        for e in Emp.listEmp:
+            if(e.id==id):
+                if(e.type=="Dir"):
+                    return Dir()
+                elif(e.type=='Mgr'):
+                    return Mgr()
+
+    def __init__(self):
+        self.id=None
+        self.name=""
+        self.type=""
+    def __str__(self):
+        return "Id: "+str(self.id)+" Name: "+self.name+" Type: "+self.type
+    def add(self):
+        Emp.listEmp.append(self)
+    def getDetails(self,id):
+        for e in Emp.listEmp:
+            if(id==e.id):
+                self.id=e.id
+                self.name=e.name
+                return
+        print("Id Not Found")
+#OBNAME._CLASSNAME__VARIABLENMAE
+
+
+class Dir(Emp):
+    def __init__(self):
+        self.dirSpecial = ""
+        self.share = ""
+        super().__init__()
+
+    def __str__(self):
+        return super().__str__()+ "Dir Special: " + self.dirSpecial + " Share: " + self.share
+
+    def add(self):
+        super().add()
+
+    def getDetails(self, id):
+        for e in Emp.listEmp:
+            if (id == e.id):
+                self.dirSpecial = e.dirSpecial
+                self.share = e.share
+                super().getDetails(id)
+                return
+        print("Id Not Found")
+class Mgr(Emp):
+    def __init__(self):
+        self.mgrSpecial = ""
+        self.incentive = ""
+        super().__init__()
+
+    def __str__(self):
+        return super().__str__()+ "Mgr Special: " + self.mgrSpecial + " Incentive: " + self.incentive
+
+    def add(self):
+        super().add()
+
+    def getDetails(self, id):
+        for e in Emp.listEmp:
+            if (id == e.id):
+                self.mgrSpecial = e.mgrSpecial
+                self.incentive = e.incentive
+                super().getDetails(id)
+                return
+        print("Id Not Found")
+
+while(1):
+    print("1.Add\n2.GetDetails\n0.Exit")
+    ch=input("Enter your choice")
+    if(ch=='1'):
+        print("1.Dir\n2.Mgr")
+        ch1=input("Enter your choice")
+        if(ch1=='1'):
+            obDir=Dir()
+            obDir.type="Dir"
+            obDir.id=int(input("Enter Id"))
+            obDir.name=input("Enter NAme")
+            obDir.dirSpecial = input("Enter Dir Special")
+            obDir.share=input("Enter Share")
+            obDir.add()
+            print("Director Added Sucess fully")
+
+        elif(ch1=='2'):
+            obMgr = Mgr()
+            obMgr.type = "Mgr"
+            obMgr.id = int(input("Enter Id"))
+            obMgr.name = input("Enter Name")
+            obMgr.mgrSpecial = input("Enter Mgr Special")
+            obMgr.incentive = input("Enter Incentive")
+            obMgr.add()
+            print("Manger Added Sucess fully")
+    elif(ch=='2'):
+        id = int(input("Enter Id"))
+        emptype=Emp.getEmpById(id)#Dir(),Mgr()
+        emptype.getDetails(id)
+        print(emptype)#or
+    else:
+        break
+
+
